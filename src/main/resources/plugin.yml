@@ -1,0 +1,16 @@
+name: SunSkrzynki
+version: '${project.version}'
+main: pl.onyxdev.skrzynki.SunSkrzynki
+api-version: '26.2'
+author: oonnyyx
+depend: [SunCore]
+description: Skrzynki z kluczami, animacja otwierania i panel admina (SunCraftMC)
+commands:
+  skrzynki:
+    description: Panel skrzynek i komendy admina
+    aliases: [skrzynka, lootbox, crates]
+    usage: /skrzynki [give|lista|reload|test]
+permissions:
+  skrzynki.admin:
+    description: Panel admina, dawanie kluczy, stawianie skrzyń
+    default: op
